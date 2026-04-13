@@ -1,0 +1,42 @@
+{
+  "servers": [
+    {
+      "id": "server_1",
+      "label": "OpenWRT Hub",
+      "hostname": "GL-BE3600",
+      "online": true,
+      "devices": [
+        {
+          "id": "kodak_ssd",
+          "mounted_to_client_id": "windows_1",
+          "mounted_to_client_label": "Nvidia Stacker",
+          "mount_state": "mounted"
+        },
+        {
+          "id": "feker_alice75_keyboard",
+          "mounted_to_client_id": null,
+          "mounted_to_client_label": null,
+          "mount_state": "not_mounted",
+          "automount_client_id": "windows_1",
+          "automount_client_label": "Nvidia Stacker"
+        },
+        {
+          "id": "nulea_m512_trackball",
+          "mounted_to_client_id": null,
+          "mounted_to_client_label": null,
+          "mount_state": "not_mounted",
+          "automount_client_id": "windows_1",
+          "automount_client_label": "Nvidia Stacker"
+        },
+        {
+          "id": "logitech_m190_mouse",
+          "mounted_to_client_id": null,
+          "mounted_to_client_label": null,
+          "mount_state": "not_mounted",
+          "automount_client_id": "gadget_1",
+          "automount_client_label": "Wohnzimmer Pi"
+        }
+      ]
+    }
+  ]
+}

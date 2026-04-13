@@ -1,0 +1,117 @@
+{
+  "device_types": {
+    "keyboard_devices": {
+      "keyboard_full_size": {
+        "label": "Full-size Keyboard",
+        "variants": [
+          "105-key",
+          "104-key"
+        ]
+      },
+      "keyboard_tkl": {
+        "label": "TKL Keyboard",
+        "variants": [
+          "87-key",
+          "88-key"
+        ]
+      },
+      "keyboard_75": {
+        "label": "75% Keyboard",
+        "variants": [
+          "81-key",
+          "82-key",
+          "84-key"
+        ]
+      },
+      "keyboard_65": {
+        "label": "65% Keyboard",
+        "variants": [
+          "65-key",
+          "66-key",
+          "67-key",
+          "68-key"
+        ]
+      },
+      "keyboard_60": {
+        "label": "60% Keyboard",
+        "variants": [
+          "61-key"
+        ]
+      },
+      "keyboard_keypad": {
+        "label": "Keypad",
+        "variants": [
+          "numpad",
+          "macropad",
+          "streamdeck"
+        ]
+      }
+    },
+    "pointer_devices": {
+      "mouse": {
+        "label": "Mouse",
+        "variants": []
+      },
+      "touchpad": {
+        "label": "Touchpad",
+        "variants": []
+      },
+      "trackball": {
+        "label": "Trackball",
+        "variants": []
+      },
+      "touchscreen": {
+        "label": "Touchscreen",
+        "variants": []
+      }
+    },
+    "gaming_devices": {
+      "flight_stick": {
+        "label": "Flight Stick",
+        "variants": []
+      },
+      "gamepad": {
+        "label": "Game Pad",
+        "variants": []
+      },
+      "arcade_stick": {
+        "label": "Arcade Stick",
+        "variants": []
+      },
+      "racing_wheel": {
+        "label": "Racing Wheel",
+        "variants": []
+      },
+      "light_gun": {
+        "label": "Light Gun",
+        "variants": []
+      }
+    },
+    "storage_devices": {
+      "thumbdrive": {
+        "label": "Thumb Drive",
+        "variants": []
+      },
+      "sd_card": {
+        "label": "SD Card",
+        "variants": []
+      },
+      "compact_flash": {
+        "label": "Compact Flash",
+        "variants": []
+      },
+      "ssd": {
+        "label": "SSD",
+        "variants": []
+      },
+      "hdd": {
+        "label": "HDD",
+        "variants": []
+      },
+      "raid": {
+        "label": "RAID",
+        "variants": []
+      }
+    }
+  }
+}

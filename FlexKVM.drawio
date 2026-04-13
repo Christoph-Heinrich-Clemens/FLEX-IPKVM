@@ -1,0 +1,477 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2" pages="4">
+  <diagram id="O9FI9xI8eLoRjvccUKPh" name="Flex KVM Architektur">
+    <mxGraphModel dx="3363" dy="2424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="al4h_vsE_ety3lhfwtVP-1" value="RDP Server or Desktop" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-215" y="205" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="J9ES-lXtJjhYepVgWhyx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#D79B00);exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="al4h_vsE_ety3lhfwtVP-2" target="LIIzANCtujvQSbLrvU5l-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="453" y="108" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J9ES-lXtJjhYepVgWhyx-3" value="Network / Control" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="J9ES-lXtJjhYepVgWhyx-2" connectable="0" vertex="1">
+          <mxGeometry x="0.174" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-2" value="Router&lt;br&gt;USBIP Server&lt;div&gt;Webinterface to manage USB Devices and Clients&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- VirtualHere Server&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- Web Backend/API&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- Web Frontend&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- Konfigurationsspeicher (JSON)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=18;fontStyle=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="107.5" width="310" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-7" value="HDMI Matrix Control Client&lt;br&gt;(WLAN IR Remote Gateway)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="560" y="645" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-8" value="HDMI Switch Matrix" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;fontStyle=0;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="640" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-9" value="Control / Management" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontSize=12;" parent="1" source="al4h_vsE_ety3lhfwtVP-1" target="al4h_vsE_ety3lhfwtVP-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-10" value="USBIP" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#82b366;fontSize=12;" parent="1" source="al4h_vsE_ety3lhfwtVP-2" target="al4h_vsE_ety3lhfwtVP-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-11" value="USB data out" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#82b366;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="al4h_vsE_ety3lhfwtVP-6" target="al4h_vsE_ety3lhfwtVP-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="380" as="sourcePoint" />
+            <mxPoint x="1030.4599999999996" y="381.1999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-12" value="Network / control" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#b85450;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="al4h_vsE_ety3lhfwtVP-7" edge="1">
+          <mxGeometry x="-0.0017" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="370" y="695" />
+            </Array>
+            <mxPoint x="370" y="402.5" as="sourcePoint" />
+            <mxPoint x="540" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-13" value="Switch HDMI inputs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#b85450;fontSize=12;" parent="1" source="al4h_vsE_ety3lhfwtVP-7" target="al4h_vsE_ety3lhfwtVP-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-14" value="HDMI output" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=light-dark(#000000,#D79B00);fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="al4h_vsE_ety3lhfwtVP-26" target="al4h_vsE_ety3lhfwtVP-8" edge="1">
+          <mxGeometry x="-0.0011" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1150" y="465" as="sourcePoint" />
+            <mxPoint x="1150" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-15" value="Selected HDMI feed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#5b9bd5;fontSize=12;" parent="1" source="al4h_vsE_ety3lhfwtVP-8" target="al4h_vsE_ety3lhfwtVP-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rcarKwLfWYR-WtRLTLrZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 4 1 4;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" source="al4h_vsE_ety3lhfwtVP-17" target="al4h_vsE_ety3lhfwtVP-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1660" y="840" />
+              <mxPoint x="-100" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcarKwLfWYR-WtRLTLrZ-13" value="Video Stream" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="rcarKwLfWYR-WtRLTLrZ-12" connectable="0" vertex="1">
+          <mxGeometry x="-0.1263" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-17" value="HDMI Capture Card" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#5b9bd5;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="640" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=light-dark(#FFFFFF,#00994D);strokeColor=light-dark(#000000,#00FF80);" parent="1" source="al4h_vsE_ety3lhfwtVP-19" target="al4h_vsE_ety3lhfwtVP-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f99W-UjFca06l3979EZ4-1" value="&lt;span&gt;Control / Management&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="al4h_vsE_ety3lhfwtVP-18" connectable="0" vertex="1">
+          <mxGeometry x="-0.1447" y="-5" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-19" value="Remote Operator via&lt;div&gt;RDP Client or a local User&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#00994D);strokeColor=#2D7600;fontSize=18;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-215" y="-50" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" source="al4h_vsE_ety3lhfwtVP-21" target="al4h_vsE_ety3lhfwtVP-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f99W-UjFca06l3979EZ4-2" value="USB Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="al4h_vsE_ety3lhfwtVP-20" connectable="0" vertex="1">
+          <mxGeometry x="-0.0591" y="-3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-26" value="Headless Client 1&lt;div&gt;without USBIP&lt;/div&gt;&lt;div&gt;Google TV&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="890" y="520" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rcarKwLfWYR-WtRLTLrZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#D79B00);" parent="1" source="al4h_vsE_ety3lhfwtVP-5" target="al4h_vsE_ety3lhfwtVP-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rcarKwLfWYR-WtRLTLrZ-9" value="&lt;span&gt;HDMI output&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="rcarKwLfWYR-WtRLTLrZ-6" connectable="0" vertex="1">
+          <mxGeometry x="-0.3867" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcarKwLfWYR-WtRLTLrZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#D79B00);" parent="1" source="al4h_vsE_ety3lhfwtVP-4" target="al4h_vsE_ety3lhfwtVP-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rcarKwLfWYR-WtRLTLrZ-10" value="&lt;span&gt;HDMI output&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="rcarKwLfWYR-WtRLTLrZ-7" connectable="0" vertex="1">
+          <mxGeometry x="-0.3658" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbE9zFonXBNhQmi_Swr2-1" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="660" y="10" width="300" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-3" value="Clients with USBIP" style="swimlane;html=1;rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;container=0;" parent="UbE9zFonXBNhQmi_Swr2-1" vertex="1">
+          <mxGeometry width="300" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-4" value="Client A&lt;br&gt;&lt;div&gt;Windows PC&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;running Virtual Here Client and Client Manager Service&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=18;container=0;" parent="UbE9zFonXBNhQmi_Swr2-1" vertex="1">
+          <mxGeometry x="30" y="60" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-5" value="Client B&lt;br&gt;&lt;div&gt;Linux PC&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;running Virtual Here Client and Client Manager Service&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=18;container=0;" parent="UbE9zFonXBNhQmi_Swr2-1" vertex="1">
+          <mxGeometry x="30" y="170" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Client C&lt;/font&gt;&lt;div&gt;Raspberry Pi Zero 2 W in gadget mode running Virtual Here Client, a Client Manager Service and&lt;br&gt;&amp;nbsp;a USB bridge service to control other headless clients&lt;br&gt;- liest /dev/input/event*&lt;br&gt;- schreibt nach /dev/hidg0 + /dev/hidg1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=14;container=0;" parent="UbE9zFonXBNhQmi_Swr2-1" vertex="1">
+          <mxGeometry x="30" y="275" width="240" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="jTC73m321j7NaBcGU2ql-1" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="30" y="-640" width="300" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-21" value="USB Devices" style="swimlane;html=1;rounded=1;whiteSpace=wrap;fillColor=#0050ef;strokeColor=#001DBC;fontSize=16;fontColor=#ffffff;container=0;" parent="jTC73m321j7NaBcGU2ql-1" vertex="1">
+          <mxGeometry width="300" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-22" value="USB Device 1&lt;div&gt;Keyboard Device(Keyboard, Numpad, Streamdeck)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontSize=18;container=0;" parent="jTC73m321j7NaBcGU2ql-1" vertex="1">
+          <mxGeometry x="30" y="40" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-23" value="USB Device 2&lt;div&gt;Gaming Device (Joypad, Racing Wheel, Flight Stick)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontSize=18;container=0;" parent="jTC73m321j7NaBcGU2ql-1" vertex="1">
+          <mxGeometry x="30" y="160" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-24" value="USB Device 3&lt;div&gt;Storage Device (HDD, SSD, RAID)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontSize=18;container=0;" parent="jTC73m321j7NaBcGU2ql-1" vertex="1">
+          <mxGeometry x="30" y="270" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="al4h_vsE_ety3lhfwtVP-25" value="USB Device 4&lt;div&gt;Pointer Device (Mouse, Touchpad, Trackball, Touchscreen)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontSize=18;container=0;" parent="jTC73m321j7NaBcGU2ql-1" vertex="1">
+          <mxGeometry x="30" y="380" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LIIzANCtujvQSbLrvU5l-2" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="400" y="-640" width="300" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="LIIzANCtujvQSbLrvU5l-3" value="USB Devices" style="swimlane;html=1;rounded=1;whiteSpace=wrap;fillColor=#0050ef;strokeColor=#001DBC;fontSize=16;fontColor=#ffffff;container=0;" parent="LIIzANCtujvQSbLrvU5l-2" vertex="1">
+          <mxGeometry width="300" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="LIIzANCtujvQSbLrvU5l-4" value="USB Device 1&lt;div&gt;Keyboard Device(Keyboard, Numpad, Streamdeck)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontSize=18;container=0;" parent="LIIzANCtujvQSbLrvU5l-2" vertex="1">
+          <mxGeometry x="30" y="40" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LIIzANCtujvQSbLrvU5l-5" value="USB Device 2&lt;div&gt;Gaming Device (Joypad, Racing Wheel, Flight Stick)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontSize=18;container=0;" parent="LIIzANCtujvQSbLrvU5l-2" vertex="1">
+          <mxGeometry x="30" y="160" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LIIzANCtujvQSbLrvU5l-6" value="USB Device 3&lt;div&gt;Storage Device (HDD, SSD, RAID)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontSize=18;container=0;" parent="LIIzANCtujvQSbLrvU5l-2" vertex="1">
+          <mxGeometry x="30" y="270" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LIIzANCtujvQSbLrvU5l-7" value="USB Device 4&lt;div&gt;Pointer Device (Mouse, Touchpad, Trackball, Touchscreen)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontSize=18;container=0;" parent="LIIzANCtujvQSbLrvU5l-2" vertex="1">
+          <mxGeometry x="30" y="380" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LIIzANCtujvQSbLrvU5l-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.782;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#82B366);exitPerimeter=0;" parent="1" source="LIIzANCtujvQSbLrvU5l-8" target="al4h_vsE_ety3lhfwtVP-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LIIzANCtujvQSbLrvU5l-14" value="USBIP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LIIzANCtujvQSbLrvU5l-13" connectable="0" vertex="1">
+          <mxGeometry x="0.1075" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIIzANCtujvQSbLrvU5l-8" value="USBIP Server&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- VirtualHere Server&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=18;fontStyle=0;" parent="1" vertex="1">
+          <mxGeometry x="400" y="-110" width="300" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="LIIzANCtujvQSbLrvU5l-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LIIzANCtujvQSbLrvU5l-3" target="LIIzANCtujvQSbLrvU5l-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ui1" name="Web UI Konzept">
+    <mxGraphModel dx="1631" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tAlOY8i-rOAVPnBdcFUZ-12" value="" style="group;strokeWidth=3;" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="545" y="450" width="510" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-7" value="" style="group" parent="tAlOY8i-rOAVPnBdcFUZ-12" connectable="0" vertex="1">
+          <mxGeometry width="510" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="clientPanel1" value="Client: Bridge Mode&lt;br&gt;Hostname: VHEREPI" style="swimlane;html=1;rounded=1;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;container=0;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-7" vertex="1">
+          <mxGeometry width="510" height="310" as="geometry">
+            <mxRectangle width="170" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="slotmouse1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;container=0;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-7" vertex="1">
+          <mxGeometry x="34.549999999999955" y="55" width="255.45" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="D-Jw8Y6nss8LWXPZMJ_--13" value="Unmount Slot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;container=0;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-7" vertex="1">
+          <mxGeometry x="300" y="75" width="90" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="D-Jw8Y6nss8LWXPZMJ_--21" value="Delete client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;container=0;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-7" vertex="1">
+          <mxGeometry x="398" y="3" width="90" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-25" value="Pointer Device" style="rounded=1;whiteSpace=wrap;html=1;" parent="9DFTUVH0KvSJEZYWpJxU-7" vertex="1">
+          <mxGeometry x="50" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oTXxQNUPoXj-0HmLZYL0-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;container=0;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-7" vertex="1">
+          <mxGeometry x="34.549999999999955" y="160" width="255.45" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oTXxQNUPoXj-0HmLZYL0-2" value="Choose Device Type" style="rounded=1;whiteSpace=wrap;html=1;" parent="9DFTUVH0KvSJEZYWpJxU-7" vertex="1">
+          <mxGeometry x="50" y="185" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oTXxQNUPoXj-0HmLZYL0-3" value="Choose Device" style="rounded=1;whiteSpace=wrap;html=1;" parent="9DFTUVH0KvSJEZYWpJxU-7" vertex="1">
+          <mxGeometry x="180" y="185" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D-Jw8Y6nss8LWXPZMJ_--18" value="Unmount All" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;container=0;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-7" vertex="1">
+          <mxGeometry x="401" y="250" width="90" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="D-Jw8Y6nss8LWXPZMJ_--19" value="Mount All" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontSize=13;fontColor=#ffffff;container=0;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-7" vertex="1">
+          <mxGeometry x="401" y="280" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-1" value="Automount device" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;container=0;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-7" vertex="1">
+          <mxGeometry x="398" y="75" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="D-Jw8Y6nss8LWXPZMJ_--14" value="Mount Slot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontSize=13;fontColor=#ffffff;container=0;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-7" vertex="1">
+          <mxGeometry x="300" y="110" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tAlOY8i-rOAVPnBdcFUZ-48" value="Delete" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;container=0;fontStyle=0;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-7" vertex="1">
+          <mxGeometry x="133.64" y="130" width="57.27" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-26" value="Logitech M190" style="rounded=1;whiteSpace=wrap;html=1;" parent="tAlOY8i-rOAVPnBdcFUZ-12" vertex="1">
+          <mxGeometry x="175" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="notes" value="Regeln&#xa;&#xa;1. UI schreibt nur Konfiguration / Aktionen.&#xa;2. Backend parst VirtualHere-Status.&#xa;3. Gerätetyp wird aus Name in [Klammern] erkannt.&#xa;4. Später: automatische Soll/Ist-Synchronisierung." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="100" width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="D-Jw8Y6nss8LWXPZMJ_--27" value="" style="group;strokeWidth=1;" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="540" y="90" width="510" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="D-Jw8Y6nss8LWXPZMJ_--8" value="Add new Client" style="swimlane;html=1;rounded=1;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;container=0;strokeWidth=3;" parent="D-Jw8Y6nss8LWXPZMJ_--27" vertex="1">
+          <mxGeometry width="510" height="330" as="geometry">
+            <mxRectangle x="540" y="90" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D-Jw8Y6nss8LWXPZMJ_--9" value="Hostname or IP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;container=0;strokeWidth=3;" parent="D-Jw8Y6nss8LWXPZMJ_--27" vertex="1">
+          <mxGeometry x="30" y="60" width="450" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="D-Jw8Y6nss8LWXPZMJ_--10" value="Choose mode&lt;div&gt;Windows client , Linux client or Bridge mode client (Raspberry PI Zero 2 W gadget)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;container=0;strokeWidth=3;" parent="D-Jw8Y6nss8LWXPZMJ_--27" vertex="1">
+          <mxGeometry x="30" y="140" width="450" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="D-Jw8Y6nss8LWXPZMJ_--11" value="Add new client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;container=0;strokeWidth=3;" parent="D-Jw8Y6nss8LWXPZMJ_--27" vertex="1">
+          <mxGeometry x="30" y="230" width="450" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="D-Jw8Y6nss8LWXPZMJ_--28" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="60" y="338" width="430" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="devicesPanel" value="Gerätepool" style="swimlane;html=1;rounded=1;startSize=30;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;container=0;" parent="D-Jw8Y6nss8LWXPZMJ_--28" vertex="1">
+          <mxGeometry width="430" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="D-Jw8Y6nss8LWXPZMJ_--7" value="&lt;br style=&quot;font-size: 14px; font-weight: 700; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 700; white-space: nowrap;&quot;&gt;- freie Geräte&lt;/span&gt;&lt;br style=&quot;font-size: 14px; font-weight: 700; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 700; white-space: nowrap;&quot;&gt;- belegte Geräte&lt;/span&gt;&lt;br style=&quot;font-size: 14px; font-weight: 700; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 700; white-space: nowrap;&quot;&gt;- Gerätetypen filtern&lt;/span&gt;&lt;br style=&quot;font-size: 14px; font-weight: 700; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 700; white-space: nowrap;&quot;&gt;- Keyboard / Mouse / Numpad / Trackball / Gamepad /&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 700; white-space: nowrap;&quot;&gt;&amp;nbsp;Arcade Stick / Racing Wheel / Flight Stick&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" parent="D-Jw8Y6nss8LWXPZMJ_--28" vertex="1">
+          <mxGeometry x="10" y="40" width="410" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="D-Jw8Y6nss8LWXPZMJ_--29" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="60" y="90" width="430" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="serverPanel" value="Server Panel" style="swimlane;html=1;rounded=1;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;container=0;" parent="D-Jw8Y6nss8LWXPZMJ_--29" vertex="1">
+          <mxGeometry width="430" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="D-Jw8Y6nss8LWXPZMJ_--6" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 700; white-space: nowrap;&quot;&gt;Hostname&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;br style=&quot;font-size: 14px; font-weight: 700; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 700; white-space: nowrap;&quot;&gt;- Liste aller exportierten Geräte&lt;/span&gt;&lt;br style=&quot;font-size: 14px; font-weight: 700; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 700; white-space: nowrap;&quot;&gt;- globaler Serverstatus&lt;/span&gt;&lt;br style=&quot;font-size: 14px; font-weight: 700; white-space: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 700; white-space: nowrap;&quot;&gt;- API / Konfiguration&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" parent="D-Jw8Y6nss8LWXPZMJ_--29" vertex="1">
+          <mxGeometry x="20" y="40" width="390" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9DFTUVH0KvSJEZYWpJxU-24" target="oTXxQNUPoXj-0HmLZYL0-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-24" value="Geräteslot (neuer slot erscheint, sobald Gerät gewählt wird. Es wird immer nur ein leerer Slot angezeigt)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=13;container=0;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="140" y="590" width="255.45" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-9" value="Client: Windows&lt;br&gt;Hostname: Firebat MN56" style="swimlane;html=1;rounded=1;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;container=0;fontStyle=0;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="540" y="807" width="510" height="560" as="geometry">
+            <mxRectangle width="170" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAlOY8i-rOAVPnBdcFUZ-3" value="Automount device" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontSize=13;container=0;fontColor=#ffffff;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-9" vertex="1">
+          <mxGeometry x="398" y="75.5" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="tAlOY8i-rOAVPnBdcFUZ-4" value="Mount Slot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontSize=13;fontColor=#ffffff;container=0;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-9" vertex="1">
+          <mxGeometry x="300" y="110.5" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tAlOY8i-rOAVPnBdcFUZ-5" value="Unmount Slot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;container=0;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-9" vertex="1">
+          <mxGeometry x="300" y="75.5" width="90" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tAlOY8i-rOAVPnBdcFUZ-6" value="Automount device" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontSize=13;container=0;fontColor=#ffffff;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-9" vertex="1">
+          <mxGeometry x="398" y="183" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="tAlOY8i-rOAVPnBdcFUZ-7" value="Mount Slot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontSize=13;fontColor=#ffffff;container=0;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-9" vertex="1">
+          <mxGeometry x="300" y="218" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tAlOY8i-rOAVPnBdcFUZ-8" value="Unmount Slot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;container=0;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-9" vertex="1">
+          <mxGeometry x="300" y="183" width="90" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tAlOY8i-rOAVPnBdcFUZ-9" value="Automount device" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontSize=13;container=0;fontColor=#ffffff;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-9" vertex="1">
+          <mxGeometry x="398" y="293" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="tAlOY8i-rOAVPnBdcFUZ-10" value="Mount Slot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontSize=13;fontColor=#ffffff;container=0;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-9" vertex="1">
+          <mxGeometry x="300" y="328" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tAlOY8i-rOAVPnBdcFUZ-11" value="Unmount Slot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;container=0;strokeWidth=3;" parent="9DFTUVH0KvSJEZYWpJxU-9" vertex="1">
+          <mxGeometry x="300" y="293" width="90" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-15" value="Delete client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;container=0;fontStyle=0;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="938" y="810" width="90" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-27" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;container=0;fontStyle=0;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="570" y="865" width="255.45" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-28" value="Pointer Device" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="585.45" y="890" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-29" value="Nulea M512" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="715.45" y="890" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;container=0;fontStyle=0;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="570" y="975" width="255.45" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-31" value="Keyboad" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="585.45" y="1000" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-32" value="Feker75" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="715.45" y="1000" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-39" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;container=0;fontStyle=0;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="570" y="1085" width="255.45" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-40" value="Storage" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="585.45" y="1110" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-41" value="Kodak SSD" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="715.45" y="1110" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oTXxQNUPoXj-0HmLZYL0-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;container=0;fontStyle=0;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="570" y="1199" width="255.45" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oTXxQNUPoXj-0HmLZYL0-5" value="Choose Device Type" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="585.45" y="1224" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oTXxQNUPoXj-0HmLZYL0-6" value="Choose Device" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="715.45" y="1224" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-13" value="Unmount All" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;container=0;fontStyle=0;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="941" y="1309" width="90" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9DFTUVH0KvSJEZYWpJxU-14" value="Mount All" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontSize=13;fontColor=#ffffff;container=0;fontStyle=0;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="941" y="1339" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tAlOY8i-rOAVPnBdcFUZ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tAlOY8i-rOAVPnBdcFUZ-33" target="9DFTUVH0KvSJEZYWpJxU-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tAlOY8i-rOAVPnBdcFUZ-33" value="Automatisch eingebundene Geräte können nicht mit Unmount All oder anderweitig ausgebunden werden&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontSize=13;container=0;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1154" y="491" width="192" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="tAlOY8i-rOAVPnBdcFUZ-43" value="Delete" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;container=0;fontStyle=0;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="669.09" y="940" width="57.27" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tAlOY8i-rOAVPnBdcFUZ-45" value="Delete" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;container=0;fontStyle=0;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="669.09" y="1050" width="57.27" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tAlOY8i-rOAVPnBdcFUZ-46" value="Delete" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;container=0;fontStyle=0;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="669.09" y="1160" width="57.27" height="22.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="data1" name="Datenmodell + API">
+    <mxGraphModel dx="1631" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="parser" value="Namensparser&lt;br&gt;&lt;br&gt;Beispiel:&lt;br&gt;Feker Alice75 [Keyboard_75%]&lt;div&gt;GMK 26 [Numpad]&lt;br&gt;Kodak [SSD]&lt;br&gt;Logitech M190 [Mouse]&lt;br&gt;Nulea M512 [Trackball]&lt;br&gt;&lt;br&gt;Regel: letzter [...] Block = Gerätetyp/Funktion&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="30" y="110" width="330" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="types" value="Erkannte Typen&lt;br&gt;&lt;br&gt;keyboard&lt;br&gt;mouse&lt;br&gt;numpad&lt;br&gt;trackball&lt;br&gt;gamepad&lt;br&gt;arcade stick&lt;br&gt;racing wheel&lt;br&gt;flight stick&lt;br&gt;ssd&lt;br&gt;hdd&lt;br&gt;storage&lt;br&gt;unknown" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="450" y="90" width="220" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="deviceModel" value="Device Objekt&#xa;&#xa;id&#xa;name&#xa;raw_name&#xa;type&#xa;mounted_to_client&#xa;server_hostname&#xa;is_available&#xa;last_seen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="730" y="110" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="clientModel" value="Client Objekt&lt;br&gt;&lt;br&gt;hostname&lt;br&gt;online&lt;br&gt;headless&lt;br&gt;slots {&lt;br&gt;  keyboard&lt;br&gt;  mouse&lt;br&gt;  numpad&lt;br&gt;  gamepad&lt;br&gt;  arcade_stick&lt;br&gt;racing_wheel&lt;br&gt;  flight_stick&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="90" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="configModel" value="Konfiguration&#xa;&#xa;assignments[client][slot] = device_id&#xa;policy.auto_mount = true/false&#xa;policy.enforce_roles = true/false&#xa;policy.headless_clients_can_poll = true/false" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="120" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="exjson" value="Beispiel JSON&#xa;&#xa;{&#xa;  &quot;name&quot;: &quot;Logitech M190 [Mouse]&quot;,&#xa;  &quot;raw_name&quot;: &quot;Logitech M190 [Mouse]&quot;,&#xa;  &quot;type&quot;: &quot;mouse&quot;,&#xa;  &quot;mounted_to_client&quot;: &quot;VHEREPI&quot;&#xa;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="70" y="410" width="410" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="api" value="API Endpunkte&#xa;&#xa;GET /api/status&#xa;GET /api/devices&#xa;GET /api/clients&#xa;GET /api/config&#xa;POST /api/config&#xa;POST /api/mount&#xa;POST /api/unmount&#xa;POST /api/sync" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="550" y="380" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="mountbody" value="POST /api/mount&#xa;&#xa;{&#xa;  &quot;client&quot;: &quot;VHEREPI&quot;,&#xa;  &quot;slot&quot;: &quot;mouse&quot;,&#xa;  &quot;device_id&quot;: &quot;logitech_m190_mouse&quot;&#xa;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="840" y="530" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="synclogic" value="Sync-Logik&#xa;&#xa;1. Ist-Zustand vom VirtualHere Server lesen&#xa;2. Soll-Zustand aus Config lesen&#xa;3. Typen/Slots prüfen&#xa;4. Nur notwendige Mount/Unmounts ausführen&#xa;5. Ergebnis an UI zurückgeben" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="400" width="320" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" value="mappt auf" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" parent="1" source="parser" target="types" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" value="füllt" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" parent="1" source="types" target="deviceModel" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" value="zugewiesen an" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" parent="1" source="deviceModel" target="clientModel" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" value="persistiert in" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" parent="1" source="clientModel" target="configModel" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" value="steuert" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" parent="1" source="api" target="synclogic" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="schema1" name="JSON Schema Entwurf">
+    <mxGraphModel dx="3231" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rootjson" value="Root config.json&#xa;&#xa;{&#xa;  &quot;server&quot;: {...},&#xa;  &quot;device_type_aliases&quot;: {...},&#xa;  &quot;devices&quot;: [...],&#xa;  &quot;clients&quot;: [...],&#xa;  &quot;assignments&quot;: {...},&#xa;  &quot;policies&quot;: {...}&#xa;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="70" y="100" width="320" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="serverjson" value="server&#xa;&#xa;{&#xa;  &quot;hostname&quot;: &quot;GL-BE3600&quot;,&#xa;  &quot;api_bind&quot;: &quot;0.0.0.0:8080&quot;,&#xa;  &quot;virtualhere_binary&quot;: &quot;/opt/virtualhere/vhusbdarm&quot;,&#xa;  &quot;status_poll_interval_ms&quot;: 2000&#xa;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="85" y="-120" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="aliasesjson" value="device_type_aliases&lt;br&gt;&lt;br&gt;{&lt;br&gt;  &quot;keyboard device&quot;: [&quot;keyboard_100%, keyboard_75%, numpad&quot;],&lt;br&gt;  &quot;pointer device&quot;: [&quot;mouse, trackball, touchpad, touchscreen&quot;],&lt;br&gt;  &quot;gaming device&quot;: [&quot;gamepad, arcade stick, racing wheel, flight stick&quot;],&lt;br&gt;  &quot;storage device&quot;: [&quot;ssd, hdd, raid&quot;],&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="440" y="-220" width="350" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="clientjson" value="clients[]&lt;br&gt;&lt;br&gt;{&lt;br&gt;  &quot;hostname&quot;: &quot;VHEREPI&quot;,&lt;br&gt;  &quot;display_name&quot;: &quot;Wohnzimmer Pi&quot;,&lt;br&gt;  &quot;online&quot;: true,&lt;br&gt;  &quot;headless&quot;: true,&lt;br&gt;  &quot;allowed_slots&quot;: [&quot;keyboard&quot;,&quot;pointer&quot;],&lt;br&gt;  &quot;auto_mount&quot;: true&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="-270" y="-140" width="290" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="devicejson" value="devices[]&#xa;&#xa;{&#xa;  &quot;id&quot;: &quot;logitech_m190_mouse&quot;,&#xa;  &quot;raw_name&quot;: &quot;Logitech M190 [Mouse]&quot;,&#xa;  &quot;display_name&quot;: &quot;Logitech M190&quot;,&#xa;  &quot;type&quot;: &quot;mouse&quot;,&#xa;  &quot;server_hostname&quot;: &quot;GL-BE3600&quot;,&#xa;  &quot;mounted_to_client&quot;: &quot;VHEREPI&quot;,&#xa;  &quot;available&quot;: true,&#xa;  &quot;source_path&quot;: &quot;OpenWRT Hub.Logitech M190 [Mouse]&quot;&#xa;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="440" y="410" width="360" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="assignjson" value="assignments&lt;br&gt;&lt;br&gt;{&lt;br&gt;  &quot;VHEREPI&quot;: {&lt;br&gt;    &quot;keyboard&quot;: &quot;feker_alice75_keyboard_75%&quot;,&lt;br&gt;    &quot;mouse&quot;: &quot;logitech_m190_mouse&quot;&lt;br&gt;  },&lt;br&gt;  &quot;Firebat MN56&quot;: {&lt;br&gt;    &quot;keyboard&quot;: null,&lt;br&gt;    &quot;mouse&quot;: null,&lt;br&gt;    &quot;gamepad&quot;: null&lt;br&gt;  }&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="80" y="410" width="300" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="policyjson" value="policies&#xa;&#xa;{&#xa;  &quot;enforce_type_match&quot;: true,&#xa;  &quot;unmount_before_remount&quot;: true,&#xa;  &quot;auto_sync_on_change&quot;: true,&#xa;  &quot;allow_manual_override&quot;: true,&#xa;  &quot;headless_clients_wait_for_assignments&quot;: true&#xa;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="410" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" value="enthält" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" parent="1" source="rootjson" target="serverjson" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" value="enthält" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" parent="1" source="rootjson" target="aliasesjson" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" value="enthält" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" parent="1" source="rootjson" target="clientjson" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" value="enthält" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" parent="1" source="rootjson" target="devicejson" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" value="enthält" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" parent="1" source="rootjson" target="assignjson" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" value="enthält" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" parent="1" source="rootjson" target="policyjson" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,44 @@
+{
+  "clients": [
+    {
+      "id": "linux_1",
+      "label": "Aerofara 3",
+      "client_type": "Linux client",
+      "hostname": "",
+      "ip": "192.168.8.100",
+      "online": false,
+      "client_binary": "",
+      "mounted_devices": [],
+      "automount_devices": []
+    },
+    {
+      "id": "windows_1",
+      "label": "Nvidia Stacker",
+      "client_type": "windows_client",
+      "hostname": "Nvidia Stacker",
+      "ip": "192.168.8.213",
+      "online": true,
+      "client_binary": "c:\\vhui64.exe",
+      "mounted_devices": [
+        "kodak_ssd"
+      ],
+      "automount_devices": [
+        "feker_alice75_keyboard",
+        "nulea_m512_trackball"
+      ]
+    },
+    {
+      "id": "gadget_1",
+      "label": "Wohnzimmer Pi",
+      "client_type": "gadget_host",
+      "hostname": "VHEREPI",
+      "ip": "192.168.8.216",
+      "online": true,
+      "client_binary": "",
+      "mounted_devices": [],
+      "automount_devices": [
+        "logitech_m190_mouse"
+      ]
+    }
+  ]
+}
